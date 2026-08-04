@@ -8,3 +8,10 @@ print (type ( student_name) )
 print (type (course_duration))
 print (type(course_rating))
 print(type(is_enrolled))
+
+
+# Sum of two numbers
+a = 30
+b = 40
+sum = a+b
+print(f"Sum: {sum}")
