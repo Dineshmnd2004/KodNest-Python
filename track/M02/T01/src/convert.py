@@ -12,3 +12,24 @@ print(course_fee_text)
 print(type(course_fee_text))
 print(attempts)
 print(type(attempts))
+
+
+current_age = 21
+next_age = (current_age) + 1
+
+print(f"Age next year: {next_age}")
+
+# Read and convert the student details
+student_name = str(input())
+age = int(input())
+rating = float(input())
+
+# Display the values
+print(f"Student: {student_name}")
+print(f"Age: {age}")
+print(f"Rating: {rating}")
+
+# Display the data types
+print(type(student_name))
+print(type(age))
+print(type(rating))
