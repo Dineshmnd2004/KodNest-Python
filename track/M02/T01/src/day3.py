@@ -1,3 +1,4 @@
+#convert to different data types
 age_text = "21"
 course_fee_text = "499.50"
 attempts = 3
@@ -32,3 +33,23 @@ print(f"Rating: {rating}")
 print(type(student_name))
 print(type(age))
 print(type(rating))
+
+
+#Calculate Division & Floor Division
+first_number = int(input())
+second_number = int(input())
+# Write your code here
+division = first_number / second_number
+floorDivision = first_number // second_number
+print(f"{division}")
+print(f"{floorDivision}")
+
+
+#Add Two Numbers
+# Read the numbers
+first_number = int(input())
+second_number = int(input())
+# Calculate the sum
+sum_result = first_number + second_number
+# Display the result
+print(f"Sum: {sum_result}")
